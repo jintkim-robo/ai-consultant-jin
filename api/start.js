@@ -31,7 +31,7 @@ module.exports = async (req, res) => {
       body: JSON.stringify({
         replica_id: replicaId,
         ...(personaId ? { persona_id: personaId } : {}),
-        conversation_name: 'GRID Guide Demo',
+        conversation_name: 'AI Consultant Jin',
       }),
     });
 
